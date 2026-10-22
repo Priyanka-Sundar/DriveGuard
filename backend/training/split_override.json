@@ -1,0 +1,6 @@
+{
+  "note": "Subject-disjoint split override. Subject keys are '<fold>:s<id>'. Used by 03_train_model.py when present; reflects the actually-available complete subject-states given Google Drive per-archive quota limits during acquisition. Updated whenever more subjects finish downloading.",
+  "train": ["Fold3_part2:31", "Fold3_part1:27", "Fold4_part2:45", "Fold1_part1:04", "Fold3_part2:35", "Fold4_part1:41", "Fold5_part1:51", "Fold5_part2:60"],
+  "val": ["window-disjoint 20% of train windows"],
+  "test": ["Fold2_part1:17"]
+}

@@ -1,0 +1,1294 @@
+{
+ "Fold1_part1": {
+  "file_id": "16x8afSOwfbdGAjUbfRFvwGj1ie8Lf5Do",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold1_part1/06/5.mp4",
+    "header_offset": 143,
+    "compress_size": 939255158,
+    "file_size": 939485077,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/06/10.mp4",
+    "header_offset": 939255379,
+    "compress_size": 919756126,
+    "file_size": 920002739,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/06/0.mp4",
+    "header_offset": 1859011584,
+    "compress_size": 1306484298,
+    "file_size": 1306635253,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/03/10.mov",
+    "header_offset": 3165496033,
+    "compress_size": 604020845,
+    "file_size": 604195534,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/03/5.mov",
+    "header_offset": 3769516957,
+    "compress_size": 604942355,
+    "file_size": 605118918,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/03/0.MOV",
+    "header_offset": 4374459390,
+    "compress_size": 1106436846,
+    "file_size": 1108555155,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/05/5.MOV",
+    "header_offset": 5480896387,
+    "compress_size": 346215248,
+    "file_size": 346431792,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/05/10.MOV",
+    "header_offset": 5827111713,
+    "compress_size": 523090473,
+    "file_size": 525105790,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/05/0.MOV",
+    "header_offset": 6350202265,
+    "compress_size": 353920123,
+    "file_size": 354142515,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/04/5.mp4",
+    "header_offset": 6704122539,
+    "compress_size": 698928287,
+    "file_size": 698932216,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/04/0.mp4",
+    "header_offset": 7403050904,
+    "compress_size": 63296134,
+    "file_size": 63598959,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/04/10.mp4",
+    "header_offset": 7466347116,
+    "compress_size": 62716321,
+    "file_size": 63024482,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/01/10.MOV",
+    "header_offset": 7529063589,
+    "compress_size": 461316319,
+    "file_size": 461505450,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/01/5.mov",
+    "header_offset": 7990379987,
+    "compress_size": 474994183,
+    "file_size": 475181147,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/01/0.mov",
+    "header_offset": 8465374248,
+    "compress_size": 1140780865,
+    "file_size": 1142591554,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/02/0.mov",
+    "header_offset": 9606155264,
+    "compress_size": 806454437,
+    "file_size": 808348620,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/02/5.MOV",
+    "header_offset": 10412609779,
+    "compress_size": 1225512789,
+    "file_size": 1296098203,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part1/02/10.MOV",
+    "header_offset": 11638122646,
+    "compress_size": 1241981093,
+    "file_size": 1299917174,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold1_part2": {
+  "file_id": "1qPoJ06jeznytP_BGJ25hxdQy7eYTTjyk",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold1_part2/08/10.mp4",
+    "header_offset": 143,
+    "compress_size": 972047878,
+    "file_size": 975146622,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/08/0.mp4",
+    "header_offset": 972048100,
+    "compress_size": 378573308,
+    "file_size": 378970860,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/08/5.mp4",
+    "header_offset": 1350621486,
+    "compress_size": 965705227,
+    "file_size": 978292489,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/11/5.mp4",
+    "header_offset": 2316326864,
+    "compress_size": 339696500,
+    "file_size": 339916887,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/11/0.mp4",
+    "header_offset": 2656023442,
+    "compress_size": 634005022,
+    "file_size": 634260739,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/11/10.mp4",
+    "header_offset": 3290028542,
+    "compress_size": 364998869,
+    "file_size": 365219624,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/09/0.mp4",
+    "header_offset": 3655027563,
+    "compress_size": 562917070,
+    "file_size": 563085810,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/09/10.mp4",
+    "header_offset": 4217944711,
+    "compress_size": 642228512,
+    "file_size": 642409702,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/09/5.mp4",
+    "header_offset": 4860173302,
+    "compress_size": 682756050,
+    "file_size": 682905896,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/07/5.mp4",
+    "header_offset": 5542929503,
+    "compress_size": 1108253331,
+    "file_size": 1108322795,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/07/10.mp4",
+    "header_offset": 6651182912,
+    "compress_size": 1110923539,
+    "file_size": 1110974181,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/07/0.mp4",
+    "header_offset": 7762106530,
+    "compress_size": 1108231397,
+    "file_size": 1108281654,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/10/10.MOV",
+    "header_offset": 8870338078,
+    "compress_size": 641031212,
+    "file_size": 643112050,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/10/5.MOV",
+    "header_offset": 9511369369,
+    "compress_size": 432465245,
+    "file_size": 434558488,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/10/0.MOV",
+    "header_offset": 9943834692,
+    "compress_size": 18720931,
+    "file_size": 20739103,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/12/5.mp4",
+    "header_offset": 9962555774,
+    "compress_size": 635871416,
+    "file_size": 636122811,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/12/10.mp4",
+    "header_offset": 10598427268,
+    "compress_size": 509750965,
+    "file_size": 509965939,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold1_part2/12/0.mp4",
+    "header_offset": 11108178312,
+    "compress_size": 571205666,
+    "file_size": 571389197,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold2_part1": {
+  "file_id": "12uVMVLv_kRXzQb4QDdru9RK3G9hzfpPQ",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold2_part1/13/5.mp4",
+    "header_offset": 143,
+    "compress_size": 1482999548,
+    "file_size": 1483029231,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/13/10.mp4",
+    "header_offset": 1482999769,
+    "compress_size": 1338755748,
+    "file_size": 1338779824,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/13/0.mp4",
+    "header_offset": 2821755596,
+    "compress_size": 1320615372,
+    "file_size": 1320643840,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/18/5.mov",
+    "header_offset": 4142371119,
+    "compress_size": 295870790,
+    "file_size": 296041855,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/18/0.mov",
+    "header_offset": 4438241987,
+    "compress_size": 383414625,
+    "file_size": 383618589,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/18/10.mov",
+    "header_offset": 4821656690,
+    "compress_size": 248861973,
+    "file_size": 249127461,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/16/0.MOV",
+    "header_offset": 5070518815,
+    "compress_size": 210073624,
+    "file_size": 210213218,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/16/5.MOV",
+    "header_offset": 5280592517,
+    "compress_size": 239786062,
+    "file_size": 239969672,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/16/10.MOV",
+    "header_offset": 5520378657,
+    "compress_size": 255316699,
+    "file_size": 255492078,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/14/10.mp4",
+    "header_offset": 5775695508,
+    "compress_size": 1388552551,
+    "file_size": 1402471760,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/14/0.mp4",
+    "header_offset": 7164248138,
+    "compress_size": 1366500529,
+    "file_size": 1379244100,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/14/5.mp4",
+    "header_offset": 8530748745,
+    "compress_size": 664666698,
+    "file_size": 665061853,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/15/5.mp4",
+    "header_offset": 9195415594,
+    "compress_size": 624553398,
+    "file_size": 624927732,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/15/0.mp4",
+    "header_offset": 9819969070,
+    "compress_size": 650089618,
+    "file_size": 650455781,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/15/10.mp4",
+    "header_offset": 10470058766,
+    "compress_size": 622576941,
+    "file_size": 622936678,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/17/10.mp4",
+    "header_offset": 11092635859,
+    "compress_size": 49750155,
+    "file_size": 50373756,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/17/0.mp4",
+    "header_offset": 11142386093,
+    "compress_size": 24992081,
+    "file_size": 25453993,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part1/17/5.mp4",
+    "header_offset": 11167378252,
+    "compress_size": 166198232,
+    "file_size": 166579468,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold2_part2": {
+  "file_id": "1nYGUpqE3x5ZeRLgDeMlUN4K_ccPjM2pe",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold2_part2/22/10.MOV",
+    "header_offset": 143,
+    "compress_size": 1252361729,
+    "file_size": 1311110231,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/22/5.MOV",
+    "header_offset": 1252361951,
+    "compress_size": 1250391277,
+    "file_size": 1308306120,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/22/0.MOV",
+    "header_offset": 2502753306,
+    "compress_size": 1248652841,
+    "file_size": 1306421316,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/23/0.mp4",
+    "header_offset": 3751406298,
+    "compress_size": 330941189,
+    "file_size": 330942977,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/23/5.mp4",
+    "header_offset": 4082347565,
+    "compress_size": 317989291,
+    "file_size": 317993617,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/23/10.mp4",
+    "header_offset": 4400336934,
+    "compress_size": 509553856,
+    "file_size": 509527594,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/19/0.MOV",
+    "header_offset": 4909890942,
+    "compress_size": 1014782910,
+    "file_size": 1289402169,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/19/5.MOV",
+    "header_offset": 5924673930,
+    "compress_size": 1239325680,
+    "file_size": 1296712936,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/19/10.MOV",
+    "header_offset": 7163999688,
+    "compress_size": 1228153347,
+    "file_size": 1298265636,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/21/10.MOV",
+    "header_offset": 8392153187,
+    "compress_size": 346082381,
+    "file_size": 346300618,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/21/5.MOV",
+    "header_offset": 8738235647,
+    "compress_size": 346692832,
+    "file_size": 346908283,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/21/0.MOV",
+    "header_offset": 9084928557,
+    "compress_size": 349495188,
+    "file_size": 349713882,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/24/10.mp4",
+    "header_offset": 9434423896,
+    "compress_size": 243714033,
+    "file_size": 244119540,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/24/0.mp4",
+    "header_offset": 9678138008,
+    "compress_size": 204851076,
+    "file_size": 205242035,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/24/5.mp4",
+    "header_offset": 9882989162,
+    "compress_size": 756621919,
+    "file_size": 761985211,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/20/5.MOV",
+    "header_offset": 10639611232,
+    "compress_size": 1165896459,
+    "file_size": 1167809309,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/20/0.mp4",
+    "header_offset": 11805507769,
+    "compress_size": 303769964,
+    "file_size": 304148805,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold2_part2/20/10.mp4",
+    "header_offset": 12109277811,
+    "compress_size": 83677487,
+    "file_size": 85175261,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold3_part1": {
+  "file_id": "1-JhE5TfkNyr4UbQk6PSkkpI7z-SChkWS",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold3_part1/29/10.mp4",
+    "header_offset": 143,
+    "compress_size": 366176978,
+    "file_size": 366486293,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/29/5.mp4",
+    "header_offset": 366177200,
+    "compress_size": 279352383,
+    "file_size": 279584194,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/29/0.mp4",
+    "header_offset": 645529661,
+    "compress_size": 643262821,
+    "file_size": 643651404,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/25/0.mp4",
+    "header_offset": 1288792633,
+    "compress_size": 1288129582,
+    "file_size": 1288281600,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/25/5.mp4",
+    "header_offset": 2576922293,
+    "compress_size": 1290772625,
+    "file_size": 1290920505,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/25/10.mp4",
+    "header_offset": 3867694996,
+    "compress_size": 1287632329,
+    "file_size": 1287766032,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/27/0.MOV",
+    "header_offset": 5155327477,
+    "compress_size": 183249449,
+    "file_size": 183511956,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/27/10.MOV",
+    "header_offset": 5338577004,
+    "compress_size": 198918419,
+    "file_size": 199160037,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/27/5.MOV",
+    "header_offset": 5537495502,
+    "compress_size": 327942841,
+    "file_size": 328160175,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/28/10.MOV",
+    "header_offset": 5865438494,
+    "compress_size": 557252867,
+    "file_size": 560136362,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/28/5.MOV",
+    "header_offset": 6422691440,
+    "compress_size": 652566322,
+    "file_size": 655424932,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/28/0.MOV",
+    "header_offset": 7075257840,
+    "compress_size": 519344476,
+    "file_size": 521625679,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/30/10.mp4",
+    "header_offset": 7594602467,
+    "compress_size": 1312571666,
+    "file_size": 1312645688,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/30/5.mp4",
+    "header_offset": 8907174212,
+    "compress_size": 204150149,
+    "file_size": 204593660,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/30/0.mp4",
+    "header_offset": 9111324439,
+    "compress_size": 208777664,
+    "file_size": 209206383,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/26/5.mp4",
+    "header_offset": 9320102254,
+    "compress_size": 1625865795,
+    "file_size": 1625924032,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/26/10.mp4",
+    "header_offset": 10945968127,
+    "compress_size": 1291235191,
+    "file_size": 1291291341,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part1/26/0.mp4",
+    "header_offset": 12237203397,
+    "compress_size": 576122802,
+    "file_size": 582032767,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold3_part2": {
+  "file_id": "1LZU5KfJkFMj2pIkGwb3RjHDazoUfxSYQ",
+  "n_members": 26,
+  "videos": [
+   {
+    "name": "Fold3_part2/34/5.mov",
+    "header_offset": 143,
+    "compress_size": 676296097,
+    "file_size": 676506896,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/34/10.mp4",
+    "header_offset": 676296318,
+    "compress_size": 392466954,
+    "file_size": 393121841,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/34/0.mov",
+    "header_offset": 1068763351,
+    "compress_size": 382929676,
+    "file_size": 383104278,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/31/10.mp4",
+    "header_offset": 1451693178,
+    "compress_size": 167289032,
+    "file_size": 167628754,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/31/5.mp4",
+    "header_offset": 1618982289,
+    "compress_size": 156200587,
+    "file_size": 156418119,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/31/0.mp4",
+    "header_offset": 1775182954,
+    "compress_size": 158700084,
+    "file_size": 158946203,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/33/0.mp4",
+    "header_offset": 1933883189,
+    "compress_size": 744945556,
+    "file_size": 745167898,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/33/10.mp4",
+    "header_offset": 2678828823,
+    "compress_size": 709938977,
+    "file_size": 710170373,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/33/5.mp4",
+    "header_offset": 3388767879,
+    "compress_size": 763804518,
+    "file_size": 764045660,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/36/10.mp4",
+    "header_offset": 4152572548,
+    "compress_size": 617322564,
+    "file_size": 626664690,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/36/5.mp4",
+    "header_offset": 4769895191,
+    "compress_size": 619479979,
+    "file_size": 628830508,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/36/0.mp4",
+    "header_offset": 5389375248,
+    "compress_size": 608672022,
+    "file_size": 613819753,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/35/10.mp4",
+    "header_offset": 5998047421,
+    "compress_size": 307478742,
+    "file_size": 307720269,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/35/5.mp4",
+    "header_offset": 6305526242,
+    "compress_size": 311360222,
+    "file_size": 311575903,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/35/0.mp4",
+    "header_offset": 6616886542,
+    "compress_size": 308805246,
+    "file_size": 309024198,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/32/5.mp4",
+    "header_offset": 7160009751,
+    "compress_size": 439375112,
+    "file_size": 439670575,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold3_part2/32/0.mp4",
+    "header_offset": 7599384941,
+    "compress_size": 504422092,
+    "file_size": 504682355,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold4_part1": {
+  "file_id": "1IYKdrjvawf90bG_cfeoWA4rZSymllFbD",
+  "n_members": 21,
+  "videos": [
+   {
+    "name": "Fold4_part1/37/10.mov",
+    "header_offset": 143,
+    "compress_size": 666489764,
+    "file_size": 666684150,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/37/0.mov",
+    "header_offset": 666489986,
+    "compress_size": 669661722,
+    "file_size": 669857171,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/37/5.mov",
+    "header_offset": 1336151786,
+    "compress_size": 606120624,
+    "file_size": 606303539,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/41/0.MP4",
+    "header_offset": 1942272561,
+    "compress_size": 321425441,
+    "file_size": 322232341,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/41/10.MOV",
+    "header_offset": 2263698080,
+    "compress_size": 924580827,
+    "file_size": 928026903,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/41/5.mp4",
+    "header_offset": 3188278986,
+    "compress_size": 371022800,
+    "file_size": 371360594,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/40/0.mp4",
+    "header_offset": 3559301937,
+    "compress_size": 609833122,
+    "file_size": 610233659,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/40/10.mp4",
+    "header_offset": 4169135137,
+    "compress_size": 608716716,
+    "file_size": 609127339,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/40/5.mp4",
+    "header_offset": 4777851932,
+    "compress_size": 608870409,
+    "file_size": 609223993,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/38/10.mp4",
+    "header_offset": 5386722492,
+    "compress_size": 1299636246,
+    "file_size": 1299682560,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/38/0.mp4",
+    "header_offset": 6686358817,
+    "compress_size": 1298979053,
+    "file_size": 1299019823,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/38/5.mp4",
+    "header_offset": 7985337948,
+    "compress_size": 914108961,
+    "file_size": 914497311,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/39/10.MOV",
+    "header_offset": 8899447060,
+    "compress_size": 1153183038,
+    "file_size": 1153272978,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/39/5.MOV",
+    "header_offset": 10052630177,
+    "compress_size": 1154899741,
+    "file_size": 1154990070,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part1/39/0.MP4",
+    "header_offset": 11207529996,
+    "compress_size": 1230430950,
+    "file_size": 1230537402,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold4_part2": {
+  "file_id": "1zJlASBwABBgVSULQLiia0R_Eqar8_B3D",
+  "n_members": 29,
+  "videos": [
+   {
+    "name": "Fold4_part2/46/10.mov",
+    "header_offset": 864984276,
+    "compress_size": 581578952,
+    "file_size": 581762931,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/48/0.MOV",
+    "header_offset": 1446563380,
+    "compress_size": 835201884,
+    "file_size": 837168413,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/48/5.MOV",
+    "header_offset": 2281765342,
+    "compress_size": 803004825,
+    "file_size": 804892978,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/48/10.MOV",
+    "header_offset": 3084770245,
+    "compress_size": 811148554,
+    "file_size": 812817320,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/45/0.mp4",
+    "header_offset": 3895918951,
+    "compress_size": 22230249,
+    "file_size": 22332253,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/45/5.mp4",
+    "header_offset": 3918149278,
+    "compress_size": 24905718,
+    "file_size": 25036496,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/45/10.mp4",
+    "header_offset": 3943055074,
+    "compress_size": 29337072,
+    "file_size": 29471615,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/44/10.mov",
+    "header_offset": 3972392298,
+    "compress_size": 241379186,
+    "file_size": 241511479,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/44/5.mov",
+    "header_offset": 4213771563,
+    "compress_size": 243299523,
+    "file_size": 243440043,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/44/0.mov",
+    "header_offset": 4457071164,
+    "compress_size": 243773010,
+    "file_size": 243912641,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/42/10.mp4",
+    "header_offset": 4700844325,
+    "compress_size": 1505813621,
+    "file_size": 1509485111,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/42/0.mp4",
+    "header_offset": 6206658025,
+    "compress_size": 1503108192,
+    "file_size": 1508751833,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/42/5.mp4",
+    "header_offset": 7709766295,
+    "compress_size": 305470108,
+    "file_size": 306247467,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/43/10.mov",
+    "header_offset": 8015236554,
+    "compress_size": 799402974,
+    "file_size": 802229011,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/43/0.mov",
+    "header_offset": 8814639607,
+    "compress_size": 801616050,
+    "file_size": 803896983,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/43/5.mp4",
+    "header_offset": 9616255735,
+    "compress_size": 804063174,
+    "file_size": 804090174,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/47/0.mp4",
+    "header_offset": 10420319060,
+    "compress_size": 1297216799,
+    "file_size": 1297269444,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/47/10.mp4",
+    "header_offset": 11717535937,
+    "compress_size": 1319658523,
+    "file_size": 1319711292,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold4_part2/47/5.mp4",
+    "header_offset": 13037194539,
+    "compress_size": 1297250623,
+    "file_size": 1297296336,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold5_part1": {
+  "file_id": "16w30wEgcAbaUr4gx9o4sl_2TbIunD5yA",
+  "n_members": 26,
+  "videos": [
+   {
+    "name": "Fold5_part1/52/10.MOV",
+    "header_offset": 143,
+    "compress_size": 584693275,
+    "file_size": 586910727,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/52/5.MOV",
+    "header_offset": 584693497,
+    "compress_size": 586061523,
+    "file_size": 588277968,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/52/0.mov",
+    "header_offset": 1170755098,
+    "compress_size": 616518036,
+    "file_size": 618525401,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/51/10.mov",
+    "header_offset": 1787273285,
+    "compress_size": 82095048,
+    "file_size": 82499257,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/51/5.MOV",
+    "header_offset": 1869368412,
+    "compress_size": 251918673,
+    "file_size": 252242254,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/51/0.MOV",
+    "header_offset": 2121287163,
+    "compress_size": 802881402,
+    "file_size": 805459220,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/50/5.MOV",
+    "header_offset": 2924168716,
+    "compress_size": 741172071,
+    "file_size": 743580959,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/50/10.MOV",
+    "header_offset": 3665340865,
+    "compress_size": 682468272,
+    "file_size": 684689673,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/50/0.MOV",
+    "header_offset": 4347809216,
+    "compress_size": 417341249,
+    "file_size": 419112569,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/54/0.mp4",
+    "header_offset": 4765150616,
+    "compress_size": 643352537,
+    "file_size": 643610610,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/54/5.mp4",
+    "header_offset": 5408503231,
+    "compress_size": 374242175,
+    "file_size": 374515917,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/54/10.mp4",
+    "header_offset": 5782745484,
+    "compress_size": 637453230,
+    "file_size": 637689340,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/53/0.MOV",
+    "header_offset": 6420198866,
+    "compress_size": 584733579,
+    "file_size": 586937347,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/53/5.MOV",
+    "header_offset": 7004932523,
+    "compress_size": 609250737,
+    "file_size": 611747697,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/53/10.MOV",
+    "header_offset": 7614183338,
+    "compress_size": 611772497,
+    "file_size": 614063214,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/49/5.mp4",
+    "header_offset": 8225955987,
+    "compress_size": 1302553366,
+    "file_size": 1303378471,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part1/49/0.mp4",
+    "header_offset": 9587260235,
+    "compress_size": 1322610987,
+    "file_size": 1323414750,
+    "compress_type": 8
+   }
+  ]
+ },
+ "Fold5_part2": {
+  "file_id": "1loOQE1-hoNM5dIOjXHI2Ss5NjjoPZcX6",
+  "n_members": 25,
+  "videos": [
+   {
+    "name": "Fold5_part2/56/10.MOV",
+    "header_offset": 143,
+    "compress_size": 606755425,
+    "file_size": 609083951,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/56/5.MOV",
+    "header_offset": 606755647,
+    "compress_size": 595982626,
+    "file_size": 598720043,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/56/0.MOV",
+    "header_offset": 1202738351,
+    "compress_size": 593699755,
+    "file_size": 595941920,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/57/10.MOV",
+    "header_offset": 1796438257,
+    "compress_size": 612501521,
+    "file_size": 614741539,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/57/5.MOV",
+    "header_offset": 2408939857,
+    "compress_size": 592474484,
+    "file_size": 594699725,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/57/0.MOV",
+    "header_offset": 3001414419,
+    "compress_size": 614585326,
+    "file_size": 616892820,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/55/10.mp4",
+    "header_offset": 3615999896,
+    "compress_size": 1466944690,
+    "file_size": 1475901425,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/55/0.mp4",
+    "header_offset": 5082944665,
+    "compress_size": 713270054,
+    "file_size": 713690799,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/55/5.mp4",
+    "header_offset": 5796214797,
+    "compress_size": 110642676,
+    "file_size": 110893636,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/58/0.mp4",
+    "header_offset": 5906857624,
+    "compress_size": 909426222,
+    "file_size": 917757330,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/58/5.mp4",
+    "header_offset": 6816283924,
+    "compress_size": 924274868,
+    "file_size": 930327679,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/58/10.mp4",
+    "header_offset": 7740558870,
+    "compress_size": 913634775,
+    "file_size": 927279239,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/59/5.MOV",
+    "header_offset": 8654193797,
+    "compress_size": 802540346,
+    "file_size": 804693493,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/59/0.MOV",
+    "header_offset": 9456734221,
+    "compress_size": 798426924,
+    "file_size": 800395158,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/59/10.MOV",
+    "header_offset": 10255161223,
+    "compress_size": 801902294,
+    "file_size": 803985553,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/60/0.mov",
+    "header_offset": 11057063669,
+    "compress_size": 590100770,
+    "file_size": 590274230,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/60/5.mov",
+    "header_offset": 11647164517,
+    "compress_size": 573018592,
+    "file_size": 573203048,
+    "compress_type": 8
+   },
+   {
+    "name": "Fold5_part2/60/10.mov",
+    "header_offset": 12220183187,
+    "compress_size": 607257051,
+    "file_size": 607440743,
+    "compress_type": 8
+   }
+  ]
+ }
+}

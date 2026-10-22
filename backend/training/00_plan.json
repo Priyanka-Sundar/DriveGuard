@@ -1,0 +1,233 @@
+{
+ "items": [
+  {
+   "fold": "Fold4_part1",
+   "subject": "41",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "04",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "35",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "51",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "60",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold4_part1",
+   "subject": "41",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "04",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "35",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "51",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "35",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "05",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "05",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "54",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "34",
+   "state": 0,
+   "split": "val_extra"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "34",
+   "state": 10,
+   "split": "val_extra"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "05",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "60",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "56",
+   "state": 0,
+   "split": "val"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "56",
+   "state": 5,
+   "split": "val"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "60",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part2",
+   "subject": "56",
+   "state": 10,
+   "split": "val"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "54",
+   "state": 10,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "54",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold3_part2",
+   "subject": "34",
+   "state": 5,
+   "split": "val_extra"
+  },
+  {
+   "fold": "Fold1_part1",
+   "subject": "04",
+   "state": 5,
+   "split": "train"
+  },
+  {
+   "fold": "Fold5_part1",
+   "subject": "51",
+   "state": 0,
+   "split": "train"
+  },
+  {
+   "fold": "Fold4_part1",
+   "subject": "41",
+   "state": 10,
+   "split": "train"
+  }
+ ],
+ "dataset": "UTA-RLDD (Real-Life Drowsiness Dataset)",
+ "citation": "Ghoddoosian, Reza and Galib, Marnim and Athitsos, Vassilis (2019), A Realistic Dataset and Baseline Temporal Model for Early Drowsiness Detection, arXiv:1904.07312",
+ "source": "https://sites.google.com/view/utarldd/home",
+ "license_note": "Videos obtained from the dataset authors' public distribution for research use. Raw media is NOT redistributed inside this repository; only derived numeric cue features are stored locally.",
+ "selection_rationale": "Complete subjects (all 3 states: 0=alert, 5=low vigilant, 10=drowsy) selected across the 5 public folds, prioritizing smaller download size and archives whose download quota was not exhausted. Subject-disjoint splits for train/val/test. Subject 27 contributes two states only (its drowsy recording sits in a quota-limited archive).",
+ "splits": {
+  "test": [
+   [
+    "Fold4_part2",
+    "45"
+   ],
+   [
+    "Fold2_part1",
+    "17"
+   ]
+  ],
+  "val": [
+   [
+    "Fold3_part2",
+    "31"
+   ],
+   [
+    "Fold5_part2",
+    "56"
+   ]
+  ],
+  "train": [
+   [
+    "Fold1_part1",
+    "04"
+   ],
+   [
+    "Fold3_part2",
+    "35"
+   ],
+   [
+    "Fold5_part1",
+    "51"
+   ],
+   [
+    "Fold1_part1",
+    "05"
+   ],
+   [
+    "Fold4_part1",
+    "41"
+   ],
+   [
+    "Fold5_part1",
+    "54"
+   ],
+   [
+    "Fold5_part2",
+    "60"
+   ],
+   [
+    "Fold3_part1",
+    "27"
+   ]
+  ],
+  "val_extra": [
+   [
+    "Fold3_part2",
+    "34"
+   ]
+  ]
+ }
+}

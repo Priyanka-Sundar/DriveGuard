@@ -1,0 +1,329 @@
+{
+ "model": "DriveGuard DWS-CNN v1.0",
+ "task": "driver drowsiness level (3-class) + continuous 0-100 score",
+ "input": {
+  "shape": [
+   64,
+   16
+  ],
+  "cue_names": [
+   "ear_left",
+   "ear_right",
+   "ear_mean",
+   "mar",
+   "eye_closed",
+   "blink_active",
+   "blink_rate_1m",
+   "mean_blink_ms_1m",
+   "perclos_60",
+   "perclos_10",
+   "head_pitch_deg",
+   "head_yaw_deg",
+   "head_roll_deg",
+   "nod_rate_1m",
+   "sec_since_blink",
+   "ear_vel"
+  ],
+  "frame_rate_hz": 30.0,
+  "normalization": "ear cues (0,1,2,15) divided by session ear_ref (open-eye P95, default 0.30), then z-score with train-set statistics, clipped to +/-6"
+ },
+ "norm": {
+  "mean": [
+   0.81049,
+   0.79901,
+   0.80477,
+   0.01796,
+   0.10443,
+   0.10449,
+   2.0749,
+   380.07065,
+   0.10514,
+   0.10555,
+   -25.54346,
+   46.57837,
+   -0.08948,
+   0.49358,
+   11.98823,
+   0.00107
+  ],
+  "std": [
+   0.20698,
+   0.18424,
+   0.19005,
+   0.04212,
+   0.30586,
+   0.3059,
+   2.64976,
+   366.09991,
+   0.22691,
+   0.26102,
+   7.86536,
+   7.84332,
+   4.26837,
+   0.9115,
+   7.30533,
+   0.26678
+  ]
+ },
+ "classes": [
+  "SAFE",
+  "WARNING",
+  "CRITICAL"
+ ],
+ "state_map": {
+  "alert": "SAFE",
+  "low_vigilant": "WARNING",
+  "drowsy": "CRITICAL"
+ },
+ "score_target": {
+  "definition": "0.5 * perclos_anchor(perclos_60) + 0.5 * class_center",
+  "class_center": {
+   "0": 12.0,
+   "1": 42.0,
+   "2": 78.0
+  },
+  "perclos_anchor_knots": [
+   [
+    0.0,
+    5.0
+   ],
+   [
+    0.08,
+    22.0
+   ],
+   [
+    0.15,
+    40.0
+   ],
+   [
+    0.25,
+    55.0
+   ],
+   [
+    0.35,
+    70.0
+   ],
+   [
+    0.5,
+    85.0
+   ],
+   [
+    0.8,
+    100.0
+   ]
+  ],
+  "note": "PERCLOS anchor provides within-class gradation; labelled state centres keep the continuous score consistent for drowsiness that shows posturally rather than ocularly (eyes-open drowsiness)."
+ },
+ "architecture": "3x depthwise-separable 1-D conv blocks (16-32-48-64, k=5) + BN + ReLU + maxpool(2) on first two, global average pooling, dual head (FC 64-32-3 softmax level, FC 64-32-1 sigmoid score x100)",
+ "parameters": {
+  "total": 10420,
+  "conv_body": 6128
+ },
+ "training": {
+  "optimizer": "AdamW lr=2.5e-3 wd=1e-4",
+  "batch": 64,
+  "epochs_run": 31,
+  "best_epoch": 13,
+  "loss": "focal CE (gamma=2) + 0.4 * L1(score)",
+  "augmentation": "gaussian cue noise, frame dropout, cue dropout, EAR scale jitter, targeted dropout of subject-fragile blink statistics",
+  "warmup_s": 60.0,
+  "window_stride_s": 0.5,
+  "early_stopping": "window-disjoint 20% validation split (intra-subject)"
+ },
+ "dataset": {
+  "name": "UTA-RLDD",
+  "citation": "Ghoddoosian, Galib, Athitsos (2019), arXiv:1904.07312",
+  "subjects": [
+   "Fold1_part1:s04",
+   "Fold2_part1:s17",
+   "Fold3_part1:s27",
+   "Fold3_part2:s31",
+   "Fold3_part2:s35",
+   "Fold4_part1:s41",
+   "Fold4_part2:s45",
+   "Fold5_part1:s51",
+   "Fold5_part2:s60"
+  ],
+  "subjects_train": [
+   "Fold1_part1:s04",
+   "Fold3_part1:s27",
+   "Fold3_part2:s31",
+   "Fold3_part2:s35",
+   "Fold4_part1:s41",
+   "Fold4_part2:s45",
+   "Fold5_part1:s51",
+   "Fold5_part2:s60"
+  ],
+  "subjects_test": [
+   "Fold2_part1:s17"
+  ],
+  "windows": {
+   "train": 2988,
+   "test": 528
+  },
+  "segments_s": 150,
+  "notes": "evaluation recordings come from a driver the model never met during training; the expanded pool covers eight training drivers, and every reported number is measured on real driving-simulator recordings"
+ },
+ "metrics": {
+  "test_accuracy": 0.4451,
+  "test_macro_f1": 0.3818,
+  "per_class": {
+   "SAFE": {
+    "precision": 1.0,
+    "recall": 0.2443,
+    "f1": 0.3927,
+    "support": 176
+   },
+   "WARNING": {
+    "precision": 0.372,
+    "recall": 0.9659,
+    "f1": 0.5371,
+    "support": 176
+   },
+   "CRITICAL": {
+    "precision": 0.7857,
+    "recall": 0.125,
+    "f1": 0.2157,
+    "support": 176
+   }
+  },
+  "confusion_matrix": [
+   [
+    43,
+    133,
+    0
+   ],
+   [
+    0,
+    170,
+    6
+   ],
+   [
+    0,
+    154,
+    22
+   ]
+  ],
+  "score_mae_vs_target": 9.98,
+  "score_pearson_r": 0.7843,
+  "per_subject_state_test": {
+   "Fold2_part1:s17|alert": {
+    "n": 176,
+    "acc": 0.2443,
+    "mean_score": 22.8
+   },
+   "Fold2_part1:s17|drowsy": {
+    "n": 176,
+    "acc": 0.125,
+    "mean_score": 36.6
+   },
+   "Fold2_part1:s17|low_vigilant": {
+    "n": 176,
+    "acc": 0.9659,
+    "mean_score": 29.4
+   }
+  },
+  "onnx_latency_ms_single_window_cpu": 0.05,
+  "val_macro_f1_best": 0.9984,
+  "loso_cross_validation": {
+   "protocol": "leave-one-subject-out (4 folds, subject-disjoint by construction)",
+   "folds": [
+    {
+     "held_out_subject": "Fold1_part1:s04",
+     "accuracy": 0.4006,
+     "macro_f1": 0.3383
+    },
+    {
+     "held_out_subject": "Fold2_part1:s17",
+     "accuracy": 0.4451,
+     "macro_f1": 0.3818
+    },
+    {
+     "held_out_subject": "Fold3_part1:s27",
+     "accuracy": 0.5057,
+     "macro_f1": 0.2724
+    },
+    {
+     "held_out_subject": "Fold3_part2:s31",
+     "accuracy": 0.4924,
+     "macro_f1": 0.4046
+    },
+    {
+     "held_out_subject": "Fold3_part2:s35",
+     "accuracy": 0.1648,
+     "macro_f1": 0.1623
+    },
+    {
+     "held_out_subject": "Fold4_part1:s41",
+     "accuracy": 0.1648,
+     "macro_f1": 0.1559
+    },
+    {
+     "held_out_subject": "Fold4_part2:s45",
+     "accuracy": 0.3333,
+     "macro_f1": 0.1667
+    },
+    {
+     "held_out_subject": "Fold5_part1:s51",
+     "accuracy": 0.233,
+     "macro_f1": 0.2189
+    },
+    {
+     "held_out_subject": "Fold5_part2:s60",
+     "accuracy": 0.5227,
+     "macro_f1": 0.2289
+    }
+   ],
+   "mean_accuracy": 0.3625,
+   "std_accuracy": 0.1363,
+   "mean_macro_f1": 0.2589,
+   "std_macro_f1": 0.0905,
+   "pooled_accuracy": 0.3635,
+   "pooled_macro_f1": 0.3616,
+   "pooled_per_class": {
+    "SAFE": {
+     "precision": 0.46,
+     "recall": 0.4343,
+     "f1": 0.4468,
+     "support": 1232
+    },
+    "WARNING": {
+     "precision": 0.3062,
+     "recall": 0.3559,
+     "f1": 0.3292,
+     "support": 1228
+    },
+    "CRITICAL": {
+     "precision": 0.3305,
+     "recall": 0.2898,
+     "f1": 0.3088,
+     "support": 1056
+    }
+   },
+   "pooled_confusion": [
+    [
+     535,
+     535,
+     162
+    ],
+    [
+     333,
+     437,
+     458
+    ],
+    [
+     295,
+     455,
+     306
+    ]
+   ]
+  }
+ },
+ "export": {
+  "format": "ONNX",
+  "sha256": "f01ecc7b0645aef202f7af581fc158c8735776b5b3d42057c57225fc04431f28",
+  "onnx_parity_max_abs_diff": 6e-06,
+  "runtime": "onnxruntime 1.31.0",
+  "trained_at": "2026-10-22T00:38:39+0000"
+ }
+}

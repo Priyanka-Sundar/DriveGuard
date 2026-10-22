@@ -1,0 +1,77 @@
+{
+ "generated_at": "2026-10-22T00:54:44+0000",
+ "sessions": [
+  {
+   "session_id": "replay-17-alert-33b67155",
+   "source": {
+    "kind": "model-replay",
+    "dataset": "UTA-RLDD",
+    "subject": "Fold2_part1:s17",
+    "state": "alert",
+    "split": "test",
+    "note": "Real model output replayed over real extracted cues from a held-out subject."
+   },
+   "summary": {
+    "duration_s": 148,
+    "frames": 148,
+    "mean_score": 24.3,
+    "peak_score": 30.1,
+    "alarm_events": 0,
+    "level_counts": {
+     "SAFE": 21,
+     "WARNING": 127,
+     "CRITICAL": 0
+    }
+   },
+   "file": "replay-17-alert-33b67155.json"
+  },
+  {
+   "session_id": "replay-17-drowsy-57d819af",
+   "source": {
+    "kind": "model-replay",
+    "dataset": "UTA-RLDD",
+    "subject": "Fold2_part1:s17",
+    "state": "drowsy",
+    "split": "test",
+    "note": "Real model output replayed over real extracted cues from a held-out subject."
+   },
+   "summary": {
+    "duration_s": 148,
+    "frames": 148,
+    "mean_score": 39.4,
+    "peak_score": 72.1,
+    "alarm_events": 3,
+    "level_counts": {
+     "SAFE": 0,
+     "WARNING": 133,
+     "CRITICAL": 15
+    }
+   },
+   "file": "replay-17-drowsy-57d819af.json"
+  },
+  {
+   "session_id": "replay-17-low_vigilant-4aeda866",
+   "source": {
+    "kind": "model-replay",
+    "dataset": "UTA-RLDD",
+    "subject": "Fold2_part1:s17",
+    "state": "low_vigilant",
+    "split": "test",
+    "note": "Real model output replayed over real extracted cues from a held-out subject."
+   },
+   "summary": {
+    "duration_s": 148,
+    "frames": 148,
+    "mean_score": 30.0,
+    "peak_score": 46.5,
+    "alarm_events": 0,
+    "level_counts": {
+     "SAFE": 0,
+     "WARNING": 141,
+     "CRITICAL": 7
+    }
+   },
+   "file": "replay-17-low_vigilant-4aeda866.json"
+  }
+ ]
+}
